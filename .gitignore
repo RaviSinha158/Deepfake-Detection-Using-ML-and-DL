@@ -7,8 +7,8 @@ venv/
 .env
 
 # Model files
-models/*.pth
-models/*.pt
+*.pth
+*.pt
 
 # Uploads & generated media
 frontend_flask/static/uploads/
@@ -25,6 +25,9 @@ video_detection/output/
 data/
 dataset/
 datasets/
+
+# Jupyter
+.ipynb_checkpoints/
 
 # Logs
 *.log
