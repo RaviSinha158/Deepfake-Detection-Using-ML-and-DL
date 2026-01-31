@@ -1,11 +1,34 @@
-venv/
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+venv/
+.env
 
+# Model files
+models/*.pth
+models/*.pt
+
+# Uploads & generated media
+frontend_flask/static/uploads/
+video_detection/output/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.heic
+*.HEIC
+*.webp
+
+# Datasets
 data/
+dataset/
 datasets/
 
-models/*.pth
+# Logs
+*.log
 
-.env
+# OS
 .DS_Store
+Thumbs.db
