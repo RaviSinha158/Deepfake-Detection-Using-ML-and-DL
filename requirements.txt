@@ -1,0 +1,10 @@
+torch
+torchvision
+opencv-python
+flask
+pillow
+pillow-heif
+numpy
+scikit-learn
+tqdm
+gradio
